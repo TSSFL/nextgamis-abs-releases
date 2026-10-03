@@ -17,11 +17,17 @@ Take the newest entry from **[Releases](../../releases/latest)**.
 
 ### Either — click to download
 
-| File | For |
-|------|-----|
-| `NEXTGAMIS_ABS_<version>_Windows_x64.zip` | Windows, **64-bit** |
-| `NEXTGAMIS_ABS_<version>_Linux_x64.tar.gz` | Linux |
-| `SHA256SUMS.txt` | to check the two above |
+These start the download immediately, without going through the release page:
+
+| | |
+|---|---|
+| **[Download for Windows (64-bit) — 85 MB](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Windows_x64.zip)** | Windows 10 and 11 |
+| **[Download for Linux — 96 MB](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Linux_x64.tar.gz)** | glibc 2.29 or newer |
+| [SHA256SUMS.txt](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/SHA256SUMS.txt) | to check the two above |
+
+⚠️ Those links carry the version in the filename, so they work while **1.0.0**
+is the newest release. After a new one is published, take the files from
+[Releases](../../releases/latest) or update the links.
 
 ⚠️ A GitHub release also lists **"Source code (zip)"** and **"Source code
 (tar.gz)"** at the bottom. GitHub adds those to every release automatically,
