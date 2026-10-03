@@ -97,8 +97,17 @@ to install it**, and none are needed to run it.
 
 ## Install
 
-**Windows** — unzip, then right-click `install.bat` and choose
-**Run as administrator**.
+Each package unpacks into **one folder**, and everything happens inside it.
+
+| Package | Unpacks to |
+|---|---|
+| `NEXTGAMIS_ABS_<version>_Windows_x64.zip` | **`abs_windows\`** |
+| `NEXTGAMIS_ABS_<version>_Linux_x64.tar.gz` | **`abs_dist_linux/`** |
+
+**Windows**
+
+1. Right-click the ZIP → **Extract All** — you get a folder called `abs_windows`
+2. Open it, right-click **`install.bat`** → **Run as administrator**
 
 **Linux**
 
@@ -111,6 +120,10 @@ sudo bash install.sh
 Windows will ask *"Do you want to allow this app to make changes to your
 device?"* — that is Windows asking permission to write to `Program Files`, and
 every installer does it. Choose **Yes**.
+
+⚠️ **Keep that folder** until your licence is working. The simplest way to
+install a licence is to drop the `.lic` file into it and run the installer
+again — see below.
 
 ---
 
@@ -157,8 +170,8 @@ you. You do not have to type anything.
 
 **Windows**
 
-1. Copy the `.lic` file into the **same folder as `install.bat`** — the folder
-   you unzipped
+1. Copy the `.lic` file into **`abs_windows\`** — the folder you unzipped,
+   the one holding `install.bat`
 2. Right-click `install.bat` → **Run as administrator**
 
 **Linux**

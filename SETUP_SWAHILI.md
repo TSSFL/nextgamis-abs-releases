@@ -43,10 +43,18 @@ vifurushi vya ziada vinavyohitajika** kusakinisha au kuendesha.
 
 ## 2. Sakinisha
 
+Kila kifurushi hufunguka kuwa **folda moja**, na kila kitu hufanyika ndani yake.
+
+| Kifurushi | Hufunguka kuwa |
+|---|---|
+| `NEXTGAMIS_ABS_<toleo>_Windows_x64.zip` | **`abs_windows\`** |
+| `NEXTGAMIS_ABS_<toleo>_Linux_x64.tar.gz` | **`abs_dist_linux/`** |
+
 ### Windows
 
-1. Fungua faili ya ZIP (bonyeza kulia → **Extract All**)
-2. Bonyeza kulia `install.bat` → **Run as administrator**
+1. Bonyeza kulia faili ya ZIP → **Extract All** — utapata folda inayoitwa
+   `abs_windows`
+2. Ifungue, bonyeza kulia **`install.bat`** → **Run as administrator**
 3. Windows itauliza: *"Do you want to allow this app to make changes to your
    device?"* — bonyeza **Yes**
 
@@ -61,7 +69,9 @@ cd abs_dist_linux
 sudo bash install.sh
 ```
 
----
+⚠️ **Usifute folda hiyo** mpaka leseni yako ifanye kazi. Njia rahisi ya
+kusakinisha leseni ni kuweka faili ya `.lic` ndani yake na kuendesha
+kisakinishi tena — angalia hapa chini.
 
 ## 3. Leseni
 
@@ -96,8 +106,8 @@ chenyewe. Huhitaji kuandika amri yoyote.
 
 **Windows**
 
-1. Nakili faili ya `.lic` kwenye **folda ile ile yenye `install.bat`** — folda
-   uliyofungua kutoka ZIP
+1. Nakili faili ya `.lic` ndani ya **`abs_windows\`** — folda uliyofungua
+   kutoka ZIP, yenye `install.bat`
 2. Bonyeza kulia `install.bat` → **Run as administrator**
 
 **Linux**
