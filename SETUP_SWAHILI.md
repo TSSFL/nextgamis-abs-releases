@@ -52,9 +52,15 @@ Kila kifurushi hufunguka kuwa **folda moja**, na kila kitu hufanyika ndani yake.
 
 ### Windows
 
-1. Bonyeza kulia faili ya ZIP → **Extract All** — utapata folda inayoitwa
-   `abs_windows`
-2. Ifungue, bonyeza kulia **`install.bat`** → **Run as administrator**
+1. Bonyeza kulia faili ya ZIP → **Extract All**
+2. Fungua folda hadi uone **`install.bat`** — iko ndani ya `abs_windows\`.
+   Windows huongeza folda yenye jina la ZIP pia, hivyo njia kamili mara nyingi
+   ni `NEXTGAMIS_ABS_1.0.0_Windows_x64\abs_windows\`
+3. Bonyeza kulia **`install.bat`** → **Run as administrator**
+
+⚠️ Idadi ya folda inategemea jinsi ulivyofungua ZIP, siyo kifurushi chenyewe.
+**Fuata `install.bat`, siyo majina ya folda** — popote faili hiyo ilipo, ndiyo
+folda unayohitaji.
 3. Windows itauliza: *"Do you want to allow this app to make changes to your
    device?"* — bonyeza **Yes**
 
@@ -106,8 +112,8 @@ chenyewe. Huhitaji kuandika amri yoyote.
 
 **Windows**
 
-1. Nakili faili ya `.lic` ndani ya **`abs_windows\`** — folda uliyofungua
-   kutoka ZIP, yenye `install.bat`
+1. Nakili faili ya `.lic` kwenye folda yenye **`install.bat`** — ile
+   `abs_windows\` uliyofungua kutoka ZIP
 2. Bonyeza kulia `install.bat` → **Run as administrator**
 
 **Linux**

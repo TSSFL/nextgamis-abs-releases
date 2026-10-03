@@ -106,8 +106,16 @@ Each package unpacks into **one folder**, and everything happens inside it.
 
 **Windows**
 
-1. Right-click the ZIP → **Extract All** — you get a folder called `abs_windows`
-2. Open it, right-click **`install.bat`** → **Run as administrator**
+1. Right-click the ZIP → **Extract All**
+2. Open the folders until you see **`install.bat`** — it is inside
+   `abs_windows\`. Windows adds a folder named after the ZIP as well, so the
+   full path is usually
+   `NEXTGAMIS_ABS_1.0.0_Windows_x64\abs_windows\`
+3. Right-click **`install.bat`** → **Run as administrator**
+
+⚠️ The number of folders depends on how you extracted, not on the package.
+**Go by `install.bat`, not by the folder names** — wherever that file is, that
+is the folder you want.
 
 **Linux**
 
@@ -170,8 +178,8 @@ you. You do not have to type anything.
 
 **Windows**
 
-1. Copy the `.lic` file into **`abs_windows\`** — the folder you unzipped,
-   the one holding `install.bat`
+1. Copy the `.lic` file into the folder holding **`install.bat`** — the
+   `abs_windows\` folder you unzipped
 2. Right-click `install.bat` → **Run as administrator**
 
 **Linux**
