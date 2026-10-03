@@ -5,6 +5,10 @@ terminal from [TSSFL Technology Stack Team](https://www.tssfl.com).
 
 **This repository holds releases only — no source code.**
 
+### 🇹🇿 [Maelekezo kwa Kiswahili — bonyeza hapa](SETUP_SWAHILI.md)
+
+Mwongozo kamili wa kupakua, kusakinisha na kupata leseni, kwa Kiswahili.
+
 ---
 
 ## Download

@@ -1,5 +1,7 @@
 # NEXTGAMIS ABS — Jinsi ya Kusakinisha
 
+[English instructions](README.md)
+
 Mwongozo mfupi wa kusakinisha NEXTGAMIS ABS kwenye kompyuta yako.
 
 ---
