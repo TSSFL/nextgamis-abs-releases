@@ -9,32 +9,78 @@ terminal from [TSSFL Technology Stack Team](https://www.tssfl.com).
 
 ## Download
 
-Take the newest entry from **[Releases](../../releases)** and pick the file for
-your system.
+Take the newest entry from **[Releases](../../releases/latest)**.
+
+### Either — click to download
 
 | File | For |
 |------|-----|
-| `NEXTGAMIS_ABS_<version>_Windows_x64.zip` | Windows 10 or 11, **64-bit** |
-| `NEXTGAMIS_ABS_<version>_Linux_x64.tar.gz` | Ubuntu 20.04 or newer, and equivalents |
+| `NEXTGAMIS_ABS_<version>_Windows_x64.zip` | Windows, **64-bit** |
+| `NEXTGAMIS_ABS_<version>_Linux_x64.tar.gz` | Linux |
+| `SHA256SUMS.txt` | to check the two above |
 
-⚠️ **Windows must be 64-bit.** Check **Settings → System → About → System type**
-before installing. A 32-bit build does not exist, and on a 32-bit installation
-the installer finishes and reports success while the application never starts.
+### Or — from a terminal
 
-### Check your download
-
-The download is large and a dropped connection leaves a file that looks complete
-but is not. Compare it against `SHA256SUMS.txt` from the same release:
+Useful on a server, or when a browser download keeps breaking: these resume.
 
 ```bash
-sha256sum -c SHA256SUMS.txt          # Linux
-```
-```powershell
-Get-FileHash .\NEXTGAMIS_ABS_1.0.0_Windows_x64.zip -Algorithm SHA256   # Windows
+# Linux
+curl -LO https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Linux_x64.tar.gz
+curl -LO https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/SHA256SUMS.txt
+sha256sum -c SHA256SUMS.txt --ignore-missing
 ```
 
-A mismatch means the download broke — fetch it again. It does not mean the
-software is damaged.
+```powershell
+# Windows PowerShell
+curl.exe -LO https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Windows_x64.zip
+```
+
+With the GitHub CLI, which resumes and verifies for you:
+
+```bash
+gh release download --repo TSSFL/nextgamis-abs-releases --pattern "*Linux*"
+```
+
+---
+
+## Which systems this runs on
+
+### Windows
+
+| | |
+|---|---|
+| **Supported** | Windows 10 and Windows 11, **64-bit only** |
+| **Tested on** | Windows 10 Pro, Windows 11 |
+| **Not supported** | Any 32-bit Windows; Windows 8.1 and earlier |
+
+⚠️ **64-bit is not a preference, it is a requirement.** Check **Settings →
+System → About → System type**. On a 32-bit installation the installer finishes
+and reports success, creates no working shortcut, and the application never
+starts. A 32-bit build does not exist and cannot be made: one of the libraries
+the system depends on publishes no 32-bit packages at all.
+
+### Linux
+
+Needs **glibc 2.29 or newer**, 64-bit.
+
+| Distribution | |
+|---|---|
+| Ubuntu 20.04 LTS and newer | yes — 22.04 and 23.04 tested |
+| Debian 11 and newer | yes |
+| Linux Mint 20 and newer | yes |
+| Fedora 30 and newer | yes |
+| RHEL, Rocky, AlmaLinux 9 and newer | yes |
+| Debian 10, RHEL/Rocky 8 | **no** — glibc 2.28, below the floor |
+
+Check yours with:
+
+```bash
+ldd --version | head -1
+```
+
+Everything the application needs travels with it — fonts and graphics
+libraries included. **No internet connection and no extra packages are needed
+to install it**, and none are needed to run it.
 
 ---
 
@@ -59,21 +105,51 @@ every installer does it. Choose **Yes**.
 
 ## Licence
 
-NEXTGAMIS ABS runs on a licence issued for one machine. On first start the
-application shows your **Machine ID** — a long code in a box on screen. Send it
-to **sales@tssfl.co** and we will issue your licence.
+NEXTGAMIS ABS runs on a licence issued for **one machine**. On first start the
+application shows your **Machine ID** — a long code in a box on screen.
 
-Whatever is wrong with a licence — missing, expired, damaged — the screen you
-see shows that Machine ID. You never have to go looking for it.
+### What to send us
 
-Installing or renewing a licence:
+Send these five things to **sales@tssfl.co**, or on WhatsApp to
+**+255 762 896 544**:
 
-```bash
-sudo /opt/nextgamis-abs/update-license.sh /path/to/your.lic          # Linux
-```
+| | Example |
+|---|---|
+| **Machine ID** | the long code shown on screen — copy it exactly |
+| **Business name** | `WAKALA BORA` — this is printed on every report you generate |
+| **Email address** | where the licence and your reports go |
+| **Machine type** | `laptop`, `desktop`, or the model, e.g. `HP 250 G8` |
+| **Operating system** | `Windows 11`, `Windows 10`, `Ubuntu 22.04` |
+
+⚠️ **The business name becomes part of your licence** and appears on every
+report, so send it exactly as you want it to read. Changing it later means a
+new licence.
+
+⚠️ **One licence covers one machine.** If you run the system on two computers,
+send the Machine ID of each — they are different codes.
+
+### Finding the Machine ID again
+
+Whatever is wrong with a licence — missing, expired, damaged, or issued for a
+different machine — **the screen you see shows your Machine ID**. You never
+have to go looking for it.
+
+If the application is running normally, it is also under
+**System Utilities → 4 · License Info**.
+
+### Installing the licence we send you
+
+**Windows**
 ```
 powershell -ExecutionPolicy Bypass -File "C:\Program Files\NEXTGAMIS ABS\update-license.ps1" -Licence C:\path\to\your.lic
 ```
+
+**Linux**
+```bash
+sudo /opt/nextgamis-abs/update-license.sh /path/to/your.lic
+```
+
+Renewing later uses the same command with the new file.
 
 ---
 

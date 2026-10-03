@@ -6,18 +6,36 @@ Mwongozo mfupi wa kusakinisha NEXTGAMIS ABS kwenye kompyuta yako.
 
 ## 1. Pakua
 
-Pakua faili kutoka ukurasa wa **Releases**:
+Pakua faili kutoka ukurasa wa
+[**Releases**](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest):
 
 | Faili | Kwa ajili ya |
 |-------|--------------|
 | `NEXTGAMIS_ABS_<toleo>_Windows_x64.zip` | Windows 10 au 11, **64-bit** |
-| `NEXTGAMIS_ABS_<toleo>_Linux_x64.tar.gz` | Ubuntu 20.04 au mpya zaidi |
+| `NEXTGAMIS_ABS_<toleo>_Linux_x64.tar.gz` | Linux |
 
-⚠️ **Windows lazima iwe 64-bit.** Angalia **Settings → System → About → System
-type** kabla ya kusakinisha. Kwenye Windows ya 32-bit usakinishaji unakamilika
-lakini programu haitafunguka kamwe.
+### Mifumo inayotumika
 
----
+**Windows** — Windows 10 na Windows 11, **64-bit pekee**.
+
+⚠️ Angalia **Settings → System → About → System type** kabla ya kupakua.
+Kwenye Windows ya 32-bit usakinishaji unakamilika na kuonyesha umefanikiwa,
+lakini programu haitafunguka kamwe. Toleo la 32-bit halipo.
+
+**Linux** — inahitaji glibc 2.29 au mpya zaidi:
+
+| Mfumo | |
+|---|---|
+| Ubuntu 20.04 LTS na mpya zaidi | ndiyo |
+| Debian 11 na mpya zaidi | ndiyo |
+| Linux Mint 20 na mpya zaidi | ndiyo |
+| Fedora 30, RHEL/Rocky 9 na mpya zaidi | ndiyo |
+| Debian 10, RHEL/Rocky 8 | **hapana** |
+
+Angalia kwa: `ldd --version | head -1`
+
+Kila kitu kinachohitajika kinakuja pamoja na programu. **Hakuna intaneti wala
+vifurushi vya ziada vinavyohitajika** kusakinisha au kuendesha.
 
 ## 2. Sakinisha
 
@@ -46,10 +64,26 @@ sudo bash install.sh
 Unapoifungua mara ya kwanza, programu itaonyesha **Machine ID** yako — namba
 ndefu ndani ya kisanduku skrini.
 
-**Tutumie namba hiyo kwa sales@tssfl.co au WhatsApp +255 762 896 544**, nasi
-tutakutumia leseni yako.
+### Tutumie mambo matano haya
 
-Ukipata faili ya leseni (`.lic`), isakinishe hivi:
+Kwa **sales@tssfl.co** au WhatsApp **+255 762 896 544**:
+
+| | Mfano |
+|---|---|
+| **Machine ID** | namba ndefu iliyo skrini — nakili kama ilivyo |
+| **Jina la biashara** | `WAKALA BORA` — litaonekana kwenye kila ripoti yako |
+| **Barua pepe** | mahali leseni na ripoti zako zitakapotumwa |
+| **Aina ya kompyuta** | `laptop`, `desktop`, au modeli, mfano `HP 250 G8` |
+| **Mfumo wa uendeshaji** | `Windows 11`, `Windows 10`, `Ubuntu 22.04` |
+
+⚠️ **Jina la biashara linakuwa sehemu ya leseni yako** na linaonekana kwenye
+kila ripoti. Litume jinsi unavyotaka lisomeke. Kulibadilisha baadaye kunahitaji
+leseni mpya.
+
+⚠️ **Leseni moja ni kwa kompyuta moja.** Ukitumia mfumo kwenye kompyuta mbili,
+tutumie Machine ID ya kila moja — ni namba tofauti.
+
+### Kusakinisha leseni
 
 **Windows**
 ```
@@ -63,8 +97,6 @@ sudo /opt/nextgamis-abs/update-license.sh /njia/ya/leseni.lic
 
 ⚠️ Tatizo lolote la leseni — haipo, imeisha muda, au imeharibika — skrini
 itakayotokea **daima inaonyesha Machine ID yako**. Hutahitaji kuitafuta.
-
----
 
 ## 4. Kufungua programu
 
