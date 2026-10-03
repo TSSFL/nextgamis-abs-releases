@@ -23,6 +23,11 @@ Take the newest entry from **[Releases](../../releases/latest)**.
 | `NEXTGAMIS_ABS_<version>_Linux_x64.tar.gz` | Linux |
 | `SHA256SUMS.txt` | to check the two above |
 
+⚠️ A GitHub release also lists **"Source code (zip)"** and **"Source code
+(tar.gz)"** at the bottom. GitHub adds those to every release automatically,
+whatever the repository holds — here they are an 8 KB copy of these
+instructions, not the application. Ignore them.
+
 ### Or — from a terminal
 
 Useful on a server, or when a browser download keeps breaking: these resume.

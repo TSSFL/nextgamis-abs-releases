@@ -15,6 +15,10 @@ Pakua faili kutoka ukurasa wa [Releases](https://github.com/TSSFL/nextgamis-abs-
 | `NEXTGAMIS_ABS_<toleo>_Windows_x64.zip`  | Windows 10 au 11, 64-bit |
 | `NEXTGAMIS_ABS_<toleo>_Linux_x64.tar.gz` | Linux |
 
+⚠️ Ukurasa wa Releases unaonyesha pia **"Source code (zip)"** na **"Source
+code (tar.gz)"** chini kabisa. GitHub huviweka vyenyewe kwenye kila release.
+Hivyo siyo programu — ni nakala ndogo ya maelekezo haya. **Usivipakue.**
+
 ### Mifumo inayotumika
 
 **Windows** — Windows 10 na Windows 11, 64-bit pekee.
