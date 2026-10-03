@@ -131,7 +131,7 @@ iweke ndani ya alama za nukuu `"..."` kama zilivyoonyeshwa kwenye komandi.
 
 Unapoifungua mara ya kwanza, programu itaonyesha **Machine ID** yako — namba ndefu iliyo ndani ya kisanduku kwenye skrini.
 
-### Tutumie vitu hivi vitano
+### Tutumie taarifa hizi tano
 
 Tuma taarifa hizi kwa **[sales@tssfl.co](mailto:sales@tssfl.co)** au WhatsApp **+255 762 896 544**:
 
