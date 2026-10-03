@@ -1,4 +1,4 @@
-# NEXTGAMIS ABS — Jinsi ya Kusakinisha
+# NEXTGAMIS ABS — Jinsi ya Kusakinisha (Kuinstall)
 
 [English instructions](README.md)
 
@@ -19,7 +19,7 @@ Mwongozo mfupi wa kusakinisha na kutumia NEXTGAMIS ABS kwenye kompyuta yako.
 code (tar.gz)"** chini kabisa. GitHub huviweka vyenyewe kwenye kila release.
 Hivyo siyo programu — ni nakala ndogo ya maelekezo haya. **Usivipakue.**
 
-### Mifumo inayotumika
+### Mifumo ya Kompyuta inayotumika
 
 **Windows** — Windows 10 na Windows 11, 64-bit pekee.
 
@@ -52,7 +52,7 @@ Kila kitu kinachohitajika kinakuja pamoja na programu. Hakuna intaneti wala vifu
 
 ## 2. Sakinisha
 
-Kila **'package' inafunguka kuwa folda moja**, na kila kitu hufanyika ndani yake.
+Kila **'package' inafunguka kuwa folda moja**, na usakinishaji hufanyika ndani yake.
 
 | Package | Inafunguka kuwa |
 | ---------------------------------------- | ----------------- |
@@ -63,7 +63,7 @@ Kila **'package' inafunguka kuwa folda moja**, na kila kitu hufanyika ndani yake
 
 1. **Right click** faili la ZIP → **Extract All**
 
-2. Fungua folda hadi uone `install.bat` — iko **ndani ya `abs_windows\`**. Windows huongeza **folda lenye jina la ZIP pia**, hivyo **path sahihi/kamili** mara nyingi ni:
+2. Fungua folda hadi uone faili `install.bat` — liko **ndani ya `abs_windows\`**. Windows huongeza **folda lenye jina la ZIP pia**, hivyo **path sahihi** mara nyingi ni:
 
    ```text
    NEXTGAMIS_ABS_1.0.0_Windows_x64\abs_windows\
@@ -71,7 +71,7 @@ Kila **'package' inafunguka kuwa folda moja**, na kila kitu hufanyika ndani yake
 
 3. **Right click** `install.bat` → **Run as administrator**
 
-⚠️ Idadi ya folda inategemea jinsi ulivyofungua ZIP, siyo **Package** chenyewe. Fuata `install.bat`, siyo majina ya folda — popote faili hiyo ilipo, ndiyo folda unayohitaji.
+⚠️ Idadi ya folda inategemea jinsi ulivyofungua ZIP, siyo **Package** yenyewe. Fuata `install.bat`, siyo majina ya folda — popote faili hilo lilipo, ndiyo folda unayohitaji.
 
 4. Windows itauliza:
 
@@ -89,7 +89,41 @@ cd abs_dist_linux
 sudo bash install.sh
 ```
 
-⚠️ Usifute folda hiyo mpaka leseni yako ifanye kazi. Njia rahisi ya kusakinisha leseni ni kuweka faili ya `.lic` ndani yake na kuendesha kisakinishi tena — angalia sehemu ya **Leseni** hapa chini.
+⚠️ Usifute folda hiyo mpaka leseni yako ifanye kazi. Njia rahisi ya kusakinisha leseni ni kuweka faili la `.lic` ndani yake na kurun kisakinishi tena — angalia sehemu ya **Leseni** hapa chini.
+
+---
+
+## Jinsi ya kufungua Terminal au PowerShell
+
+Sehemu chache za mwongozo huu zinahitaji kuandika komandi. Hivi ndivyo
+unavyofungua mahali pa kuziandika.
+
+### Linux — Terminal
+
+Njia yoyote kati ya hizi:
+
+| Njia | Jinsi |
+| --- | --- |
+| Kwa kibodi | Bonyeza **Ctrl + Alt + T** |
+| Kwa kutafuta | Bonyeza **Activities** au **Show Applications**, andika `terminal`, kisha ifungue |
+| Kwa Right click | **Right click** kwenye folda au Desktop → **Open in Terminal** |
+
+Dirisha jeusi litafunguka. Andika komandi, kisha bonyeza **Enter**.
+
+### Windows — PowerShell
+
+| Njia | Jinsi |
+| --- | --- |
+| Kwa kutafuta | Bonyeza **Start**, andika `powershell`, kisha ibonyeze |
+| Kwa Right click | **Right click** kitufe cha **Start** → **Terminal** au **Windows PowerShell** |
+| Kwa Run | Bonyeza **Windows + R**, andika `powershell`, bonyeza **Enter** |
+
+⚠️ Komandi za kusakinisha leseni zinahitaji **ruhusa ya msimamizi**. Badala ya
+kuifungua kawaida, **Right click** → **Run as administrator**. Ukiiona PowerShell
+yenye maandishi `Administrator` juu, uko sahihi.
+
+⚠️ Unapoandika path yenye nafasi — mfano `C:\Program Files\NEXTGAMIS ABS` —
+iweke ndani ya alama za nukuu `"..."` kama zilivyoonyeshwa kwenye komandi.
 
 ---
 
@@ -97,7 +131,7 @@ sudo bash install.sh
 
 Unapoifungua mara ya kwanza, programu itaonyesha **Machine ID** yako — namba ndefu iliyo ndani ya kisanduku kwenye skrini.
 
-### Tutumie mambo haya matano
+### Tutumie vitu hivi vitano
 
 Tuma taarifa hizi kwa **[sales@tssfl.co](mailto:sales@tssfl.co)** au WhatsApp **+255 762 896 544**:
 
@@ -105,23 +139,23 @@ Tuma taarifa hizi kwa **[sales@tssfl.co](mailto:sales@tssfl.co)** au WhatsApp **
 | ------------------- | ---------------------------------------------------- |
 | Machine ID | Namba ndefu iliyo kwenye skrini — nakili kama ilivyo |
 | Jina la biashara | `WAKALA BORA` — litaonekana kwenye kila ripoti yako |
-| Barua pepe | Mahali leseni na ripoti zako zitakapotumwa |
+| Barua pepe | Mahali leseni na nyaraka zingine kama manual zitakapotumwa |
 | Aina ya kompyuta | `laptop`, `desktop`, au modeli, mfano `HP 250 G8` |
-| Mfumo wa uendeshaji | `Windows 11`, `Windows 10`, `Ubuntu 22.04` |
+| Mfumo wa Kompyuta (Operating System - OS) | `Windows 11`, `Windows 10`, `Ubuntu 22.04` |
 
-⚠️ Jina la biashara linakuwa sehemu ya leseni yako na linaonekana kwenye kila ripoti. Litume jinsi unavyotaka lisomeke. Kulibadilisha baadaye kunahitaji leseni mpya.
+⚠️ Jina la biashara linakuwa sehemu ya leseni yako na litaonekana kwenye kila ripoti. Litume jinsi unavyotaka lisomeke. Kulibadilisha baadaye kunahitaji leseni mpya.
 
-⚠️ Leseni moja ni kwa kompyuta moja. Ukitumia mfumo kwenye kompyuta mbili, tutumie **Machine ID** ya kila kompyuta — kila kompyuta ina namba yake tofauti.
+⚠️ Leseni moja ni kwa kompyuta moja. Ukitumia mfumo kwenye kompyuta mbili, tutumie **Machine ID** ya kila kompyuta — kila kompyuta inahitaji leseni yake.
 
 ### Kusakinisha leseni
 
-Njia rahisi ni kuweka faili la leseni pamoja na kisakinishi, kisha kuendesha kisakinishi tena.
+Njia rahisi ni kuweka faili la leseni pamoja na kisakinishi, kisha kurun kisakinishi tena.
 
 Kisakinishi hutafuta faili yoyote ya `.lic` iliyo pamoja nacho na kuisakinisha yenyewe. Huhitaji kuandika komandi yoyote.
 
 ### Windows
 
-1. Nakili faili la `.lic` kwenye folda yenye `install.bat` — ile `abs_windows\` uliyofungua kutoka kwenye ZIP.
+1. Nakili faili la `.lic` kwenye folda lenye `install.bat` — ile `abs_windows\` ulilolifungua kutoka kwenye ZIP.
 
 2. **Right click** `install.bat` → **Run as administrator**
 
@@ -133,27 +167,27 @@ cd abs_dist_linux
 sudo bash install.sh
 ```
 
-Kumbukumbu, mipangilio na ripoti zako havitaguswa — kuendesha kisakinishi tena kunaweka leseni tu.
+Data, settings na ripoti zako havitaguswa — kurun kisakinishi tena kunaweka leseni tu.
 
-### Kama ulifuta folda ya upakuaji
+### Kama ulifuta folda Ulilopakua
 
 Programu ina zana ile ile ndani yake:
 
 **Windows**
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File "C:\Program Files\NEXTGAMIS ABS\update-license.ps1" -Licence C:\njia\ya\leseni.lic
+powershell -ExecutionPolicy Bypass -File "C:\Program Files\NEXTGAMIS ABS\update-license.ps1" -Licence C:\path\ya\leseni.lic
 ```
 
 **Linux**
 
 ```bash
-sudo /opt/nextgamis-abs/update-license.sh /njia/ya/leseni.lic
+sudo /opt/nextgamis-abs/update-license.sh /path/ya/leseni.lic
 ```
 
-Kuhuisha leseni baadaye ni njia ile ile — faili mpya inachukua nafasi ya ya zamani, na leseni yenye muda mrefu zaidi haifutwi kamwe.
+Kuhuisha leseni baadaye utahitaji kufuata njia ile ile — faili mpya linachukua nafasi ya la zamani, na leseni yenye muda mrefu zaidi haifutwi, inabaki.
 
-⚠️ Tatizo lolote la leseni — haipo, imeisha muda, au imeharibika — skrini itakayotokea daima itaonyesha **Machine ID** yako. Hutahitaji kuitafuta.
+⚠️ Kama kuna tatizo lolote la leseni — haipo, imeisha muda wake, au imeharibika — hilo tatizo litaonyehswa kwenye skrini pamoja na **Machine ID** yako mara tu unapoanzisha (launch) mfumo. Hutahitaji kuitafuta.
 
 ---
 
@@ -161,8 +195,26 @@ Kuhuisha leseni baadaye ni njia ile ile — faili mpya inachukua nafasi ya ya za
 
 | Mfumo | Jinsi |
 | ------- | ---------------------------------------------------------------- |
-| Windows | Bonyeza aikoni ya **NEXTGAMIS ABS** kwenye Desktop au Start Menu |
-| Linux | `cd /opt/nextgamis-abs && ./nextgamis-abs` |
+| Windows | **Double click** aikoni ya **NEXTGAMIS ABS** kwenye Desktop au Start Menu |
+| Linux | **Double click** aikoni ya **NEXTGAMIS ABS** kwenye Desktop, au itafute kwenye orodha ya programu |
+
+Kwa Linux, kama aikoni haionekani kwenye Desktop (kama hakuna Desktop folda),
+**itafute kwenye orodha ya programu** — bonyeza **Activities** au **Show
+Applications**, kisha andika `NEXTGAMIS`.
+
+Ukiiona, **Right click** aikoni yake → **Add to Favorites**. Baada ya hapo
+itabaki kwenye panel ya upande wa kushoto, hivyo utaifungua kwa bonyezo moja
+kila siku.
+
+Kama bado haionekani, tumia komandi hii — hii hufanya kazi daima:
+
+```bash
+cd /opt/nextgamis-abs && ./nextgamis-abs
+```
+
+⚠️ Kwenye Linux, mara ya kwanza unapobonyeza aikoni, mfumo unaweza kukuuliza
+uithibitishe (*Allow Launching* au *Trust*). Bonyeza kuruhusu — hii hutokea mara
+moja tu.
 
 ---
 
@@ -170,7 +222,7 @@ Kuhuisha leseni baadaye ni njia ile ile — faili mpya inachukua nafasi ya ya za
 
 Sakinisha toleo jipya juu ya la zamani kwa njia ile ile.
 
-Kumbukumbu zako, leseni na mipangilio yako havitaguswa.
+Data zako, leseni na settings zako havitaguswa.
 
 ---
 

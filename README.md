@@ -145,6 +145,31 @@ again — see below.
 
 ---
 
+## Opening the application
+
+| System | How |
+|---|---|
+| Windows | **Double click** the **NEXTGAMIS ABS** icon on the Desktop or in the Start Menu |
+| Linux | **Double click** the **NEXTGAMIS ABS** icon on the Desktop, or find it in the applications list |
+
+On Linux, if no icon appears on the Desktop — the installer only puts one there
+if a Desktop folder exists — **search the applications list**: press
+**Activities** or **Show Applications** and type `NEXTGAMIS`.
+
+When you find it, **right-click → Add to Favorites**. It then stays in the
+left-hand panel, so it opens in one click every day.
+
+If it still does not appear, use this command — it always works:
+
+```bash
+cd /opt/nextgamis-abs && ./nextgamis-abs
+```
+
+⚠️ On Linux the first click may ask you to confirm the launcher
+(*Allow Launching* or *Trust*). Allow it — this happens once.
+
+---
+
 ## Licence
 
 NEXTGAMIS ABS runs on a licence issued for **one machine**. On first start the
