@@ -89,6 +89,32 @@ tutumie Machine ID ya kila moja — ni namba tofauti.
 
 ### Kusakinisha leseni
 
+**Njia rahisi — weka faili pamoja na kisakinishi, kisha endesha tena.**
+
+Kisakinishi hutafuta faili yoyote ya `.lic` iliyo pamoja nacho na kuisakinisha
+chenyewe. Huhitaji kuandika amri yoyote.
+
+**Windows**
+
+1. Nakili faili ya `.lic` kwenye **folda ile ile yenye `install.bat`** — folda
+   uliyofungua kutoka ZIP
+2. Bonyeza kulia `install.bat` → **Run as administrator**
+
+**Linux**
+
+```bash
+cp leseni.lic abs_dist_linux/
+cd abs_dist_linux
+sudo bash install.sh
+```
+
+Kumbukumbu, mipangilio na ripoti zako havitaguswa — kuendesha kisakinishi tena
+kunaweka leseni tu.
+
+<br>
+
+**Kama ulifuta folda ya upakuaji**, programu ina zana ile ile ndani yake:
+
 **Windows**
 ```
 powershell -ExecutionPolicy Bypass -File "C:\Program Files\NEXTGAMIS ABS\update-license.ps1" -Licence C:\njia\ya\leseni.lic
@@ -98,6 +124,9 @@ powershell -ExecutionPolicy Bypass -File "C:\Program Files\NEXTGAMIS ABS\update-
 ```bash
 sudo /opt/nextgamis-abs/update-license.sh /njia/ya/leseni.lic
 ```
+
+Kuhuisha leseni baadaye ni njia ile ile — faili mpya inachukua nafasi ya ya
+zamani, na leseni yenye muda mrefu zaidi haifutwi kamwe.
 
 ⚠️ Tatizo lolote la leseni — haipo, imeisha muda, au imeharibika — skrini
 itakayotokea **daima inaonyesha Machine ID yako**. Hutahitaji kuitafuta.

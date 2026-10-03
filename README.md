@@ -150,6 +150,33 @@ If the application is running normally, it is also under
 
 ### Installing the licence we send you
 
+**The simple way — put the file with the installer and run it again.**
+
+The installer looks for any `.lic` file sitting beside it and installs it for
+you. You do not have to type anything.
+
+**Windows**
+
+1. Copy the `.lic` file into the **same folder as `install.bat`** — the folder
+   you unzipped
+2. Right-click `install.bat` → **Run as administrator**
+
+**Linux**
+
+```bash
+cp your.lic abs_dist_linux/
+cd abs_dist_linux
+sudo bash install.sh
+```
+
+Your data, settings and reports are untouched — re-running the installer only
+puts the licence in place.
+
+<br>
+
+**If you deleted the download folder**, the application carries the same tool
+and can install a licence on its own:
+
 **Windows**
 ```
 powershell -ExecutionPolicy Bypass -File "C:\Program Files\NEXTGAMIS ABS\update-license.ps1" -Licence C:\path\to\your.lic
@@ -160,7 +187,8 @@ powershell -ExecutionPolicy Bypass -File "C:\Program Files\NEXTGAMIS ABS\update-
 sudo /opt/nextgamis-abs/update-license.sh /path/to/your.lic
 ```
 
-Renewing later uses the same command with the new file.
+Renewing later works the same way by either route — the new file replaces the
+old one, and a licence that still has longer to run is never overwritten.
 
 ---
 
