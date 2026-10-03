@@ -19,7 +19,7 @@ Mwongozo mfupi wa kusakinisha na kutumia NEXTGAMIS ABS kwenye kompyuta yako.
 code (tar.gz)"** chini kabisa. GitHub huviweka vyenyewe kwenye kila release.
 Hivyo siyo programu — ni nakala ndogo ya maelekezo haya. **Usivipakue.**
 
-### Mifumo ya Kompyuta (OS) Yenye Sifa ya Kusanikisha
+### Mifumo ya Kompyuta inayotumika
 
 **Windows** — Windows 10 na Windows 11, 64-bit pekee.
 
@@ -104,7 +104,7 @@ Njia yoyote kati ya hizi:
 
 | Njia | Jinsi |
 | --- | --- |
-| Kwa kibodi | Bonyeza **Ctrl + Alt + T** |
+| Kwa kiibodi | Bonyeza **Ctrl + Alt + T** |
 | Kwa kutafuta | Bonyeza **Activities** au **Show Applications**, andika `terminal`, kisha ifungue |
 | Kwa Right click | **Right click** kwenye folda au Desktop → **Open in Terminal** |
 
@@ -213,7 +213,7 @@ cd /opt/nextgamis-abs && ./nextgamis-abs
 ```
 
 ⚠️ Kwenye Linux, mara ya kwanza unapobonyeza aikoni, mfumo unaweza kukuuliza
-uiamini au kuiruhusu programu (*Allow Launching* au *Trust*). Bonyeza kuruhusu — hii hutokea mara
+uiamini au kuiruhusu programu hii (*Allow Launching* au *Trust*). Bonyeza kuruhusu — hii hutokea mara
 moja tu.
 
 ---
