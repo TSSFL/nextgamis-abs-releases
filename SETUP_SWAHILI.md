@@ -8,14 +8,12 @@ Mwongozo mfupi wa kusakinisha na kutumia NEXTGAMIS ABS kwenye kompyuta yako.
 
 ## 1. Pakua
 
-Pakua faili kutoka ukurasa wa [Releases](https://github.com/TSSFL/nextgamis-abs-releases/releases):
+**Bonyeza kiungo, upakuaji unaanza mara moja.**
 
-Bonyeza kiungo, upakuaji unaanza mara moja:
+### ⬇ [PAKUA KWA WINDOWS (64-bit) — 85 MB](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Windows_x64.zip)
+### ⬇ [PAKUA KWA LINUX — 96 MB](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Linux_x64.tar.gz)
 
-| | |
-|---|---|
-| **[PAKUA KWA WINDOWS (64-bit) — 85 MB](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Windows_x64.zip)** | Windows 10 au 11 |
-| **[PAKUA KWA LINUX — 96 MB](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Linux_x64.tar.gz)** | glibc 2.29 au mpya zaidi |
+[SHA256SUMS.txt](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/SHA256SUMS.txt) — kwa kuhakikisha faili lako halikukatika wakati wa kupakua.
 
 ⚠️ Ukurasa wa Releases unaonyesha pia **"Source code (zip)"** na **"Source
 code (tar.gz)"** chini kabisa. GitHub huviweka vyenyewe kwenye kila release.

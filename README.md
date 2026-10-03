@@ -1,33 +1,28 @@
-# NEXTGAMIS ABS — Releases
-
-Installation packages for **NEXTGAMIS ABS**, the offline-first agency banking
-terminal from [TSSFL Technology Stack Team](https://www.tssfl.com).
-
-**This repository holds releases only — no source code.**
-
-### 🇹🇿 [Maelekezo kwa Kiswahili — bonyeza hapa](SETUP_SWAHILI.md)
-
-Mwongozo kamili wa kupakua, kusakinisha na kupata leseni, kwa Kiswahili.
-
----
+# NEXTGAMIS ABS
 
 ## Download
 
-Take the newest entry from **[Releases](../../releases/latest)**.
+**One click starts the download.**
 
-### Either — click to download
+### ⬇ [Download for Windows (64-bit) — 85 MB](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Windows_x64.zip)
+### ⬇ [Download for Linux — 96 MB](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Linux_x64.tar.gz)
 
-These start the download immediately, without going through the release page:
+### 🇹🇿 [Maelekezo kwa Kiswahili — bonyeza hapa](SETUP_SWAHILI.md)
 
-| | |
-|---|---|
-| **[Download for Windows (64-bit) — 85 MB](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Windows_x64.zip)** | Windows 10 and 11 |
-| **[Download for Linux — 96 MB](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Linux_x64.tar.gz)** | glibc 2.29 or newer |
-| [SHA256SUMS.txt](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/SHA256SUMS.txt) | to check the two above |
+---
 
-⚠️ Those links carry the version in the filename, so they work while **1.0.0**
-is the newest release. After a new one is published, take the files from
-[Releases](../../releases/latest) or update the links.
+This repository holds releases only — no source code. Packages for
+**NEXTGAMIS ABS**, the offline-first agency banking terminal from
+[TSSFL Technology Stack Team](https://www.tssfl.com).
+
+### Also
+
+- [SHA256SUMS.txt](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/SHA256SUMS.txt) — to check a download that may have broken
+- [All releases](../../releases) — older versions and release notes
+
+⚠️ The download links carry the version in the filename, so they work while
+**1.0.0** is newest. After a newer release, take the files from
+[Releases](../../releases/latest).
 
 ⚠️ A GitHub release also lists **"Source code (zip)"** and **"Source code
 (tar.gz)"** at the bottom. GitHub adds those to every release automatically,
