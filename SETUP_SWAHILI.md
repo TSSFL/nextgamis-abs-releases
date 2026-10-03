@@ -29,10 +29,14 @@ lakini programu haitafunguka kamwe. Toleo la 32-bit halipo.
 | Ubuntu 20.04 LTS na mpya zaidi | ndiyo |
 | Debian 11 na mpya zaidi | ndiyo |
 | Linux Mint 20 na mpya zaidi | ndiyo |
+| Kali Linux (2020 na kuendelea) | ndiyo |
 | Fedora 30, RHEL/Rocky 9 na mpya zaidi | ndiyo |
+| openSUSE Leap 15.3, Tumbleweed, SLES 15 SP3+ | ndiyo |
 | Debian 10, RHEL/Rocky 8 | **hapana** |
+| openSUSE Leap 15.2 na za zamani, SLES 12 | **hapana** |
 
-Angalia kwa: `ldd --version | head -1`
+**Angalia kwa amri hii:** `ldd --version | head -1` — ikiwa namba ni **2.29 au
+zaidi**, mfumo utafanya kazi.
 
 Kila kitu kinachohitajika kinakuja pamoja na programu. **Hakuna intaneti wala
 vifurushi vya ziada vinavyohitajika** kusakinisha au kuendesha.

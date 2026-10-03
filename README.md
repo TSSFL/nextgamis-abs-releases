@@ -63,20 +63,31 @@ the system depends on publishes no 32-bit packages at all.
 
 Needs **glibc 2.29 or newer**, 64-bit.
 
+**The one command that settles it**, whatever distribution you run:
+
+```bash
+ldd --version | head -1
+```
+
+If the number is **2.29 or higher**, the system runs. The list below is a guide,
+not the rule — distributions move.
+
 | Distribution | |
 |---|---|
 | Ubuntu 20.04 LTS and newer | yes — 22.04 and 23.04 tested |
 | Debian 11 and newer | yes |
 | Linux Mint 20 and newer | yes |
+| Kali Linux (2020 onward) | yes — it tracks Debian testing |
 | Fedora 30 and newer | yes |
 | RHEL, Rocky, AlmaLinux 9 and newer | yes |
-| Debian 10, RHEL/Rocky 8 | **no** — glibc 2.28, below the floor |
+| openSUSE Leap 15.3 and newer, Tumbleweed | yes |
+| SUSE Linux Enterprise 15 SP3 and newer | yes |
+| Debian 10, RHEL/Rocky 8 | **no** — glibc 2.28 |
+| openSUSE Leap 15.2 and earlier, SLES 12 | **no** — glibc 2.26 and older |
 
-Check yours with:
-
-```bash
-ldd --version | head -1
-```
+Nothing here is tied to a package manager: the installer calls no `apt`, `dnf`,
+`zypper` or `pacman`, and installs nothing from the network. It needs `chattr`,
+which every Linux has, and works on ext4, btrfs and XFS.
 
 Everything the application needs travels with it — fonts and graphics
 libraries included. **No internet connection and no extra packages are needed
