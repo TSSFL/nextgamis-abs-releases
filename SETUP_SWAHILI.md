@@ -172,7 +172,7 @@ Data, settings na ripoti zako havitaguswa — kurun kisakinishi tena kunaweka le
 
 ### Kama ulifuta folda ulilopakua
 
-Programu ina zana ile ile ndani yake, kwa hiyo tumia komandi::
+Programu ina zana ile ile ndani yake, kwa hiyo tumia komandi:
 
 **Windows**
 
