@@ -263,6 +263,18 @@ Data zako, leseni na settings zako havitaguswa.
 
 ---
 
+## 6. Kuondoa programu
+
+| Windows | Right click `uninstall.bat` → **Run as administrator** |
+| --- | --- |
+| **Linux** | `sudo bash /opt/nextgamis-abs/uninstall.sh` |
+
+⚠️ Kuondoa programu **kunafuta data zako zote** pamoja na backup za
+kiotomatiki. Backup ya Desktop haiguswi. Kama unahitaji data zako, chukua
+backup ya Desktop kwanza (**System Utilities → 3**).
+
+---
+
 ## Mawasiliano
 
 | | |
