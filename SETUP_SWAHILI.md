@@ -170,7 +170,7 @@ sudo bash install.sh
 
 Data, settings na ripoti zako havitaguswa — kurun kisakinishi tena kunaweka leseni tu.
 
-### Kama ulifuta folda Ulilopakua
+### Kama ulifuta folda ulilopakua
 
 Programu ina zana ile ile ndani yake, kwa hiyo tumia komandi::
 
