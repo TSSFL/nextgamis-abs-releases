@@ -45,9 +45,7 @@ sha256sum -c SHA256SUMS.txt --ignore-missing
 | `OK` | Faili ni zima — endelea kusakinisha |
 | `FAILED` | Faili lilikatika — **pakua tena** |
 
-⚠️ Ukaguzi huu unaonyesha kama faili lilikatika wakati wa kupakua. Hauonyeshi
-kama faili limebadilishwa na mtu — anayeweza kubadilisha programu anaweza pia
-kubadilisha alama zake. Thamani yake halisi ni kwenye intaneti isiyo thabiti.
+Ukaguzi huu ni muhimu hasa pale intaneti isipokuwa thabiti.
 
 </details>
 
