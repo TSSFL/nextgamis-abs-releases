@@ -99,7 +99,7 @@ Kila **'package' inafunguka kuwa folda moja**, na usakinishaji hufanyika ndani y
 
 1. **Right click** faili la ZIP → **Extract All**
 
-2. Fungua folda hadi uone faili `install.bat` — liko **ndani ya `abs_windows\`**. Windows huongeza **folda lenye jina la ZIP pia**, hivyo **path sahihi** mara nyingi ni:
+2. Fungua folda lenye faili `install.bat` — liko **ndani ya `abs_windows\`**. Windows huongeza **folda lenye jina la ZIP pia**, hivyo **path sahihi** mara nyingi ni:
 
    ```text
    NEXTGAMIS_ABS_1.0.0_Windows_x64\abs_windows\
