@@ -257,9 +257,11 @@ settings are kept** — the installer never touches them.
 
 ## Uninstalling
 
-| Windows | Right-click `uninstall.bat` → **Run as administrator** |
+| | |
 | --- | --- |
-| **Linux** | `sudo bash /opt/nextgamis-abs/uninstall.sh` |
+| **Windows** | In the folder you extracted: right-click `uninstall.bat` → **Run as administrator** |
+| **Linux** | In the folder you extracted: `sudo bash uninstall.sh` |
+| | If you deleted that folder: `sudo bash /opt/nextgamis-abs/uninstall.sh` |
 
 ⚠️ Uninstalling **deletes all your data**, auto-backups included. A Desktop
 backup is not touched. If you need the data, take one first
