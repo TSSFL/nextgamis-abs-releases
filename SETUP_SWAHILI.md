@@ -15,11 +15,11 @@ Mwongozo mfupi wa kusakinisha na kutumia NEXTGAMIS ABS kwenye kompyuta yako.
 
 [SHA256SUMS.txt](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/SHA256SUMS.txt) — kwa kuhakikisha faili lako halikukatika wakati wa kupakua.
 
-⚠️ Ukurasa wa Releases unaonyesha pia **"Source code (zip)"** na **"Source
-code (tar.gz)"** chini kabisa. GitHub huviweka vyenyewe kwenye kila release.
-Hivyo siyo programu — ni nakala ndogo ya maelekezo haya. **Usivipakue.**
+⚠️ Ukurasa wa Matoleo unaonyesha pia **"Source code (zip)"** na **"Source
+code (tar.gz)"** chini kabisa. GitHub huweka yenyewe kwenye kila toleo.
+Hivyo siyo programu — ni nakala ndogo ya maelekezo haya. **Usizipakue.**
 
-### Mifumo ya Kompyuta inayotumika
+### Mifumo ya Kompyuta (OS) Yenye Sifa ya Kusanikisha
 
 **Windows** — Windows 10 na Windows 11, 64-bit pekee.
 
@@ -108,7 +108,7 @@ Njia yoyote kati ya hizi:
 | Kwa kutafuta | Bonyeza **Activities** au **Show Applications**, andika `terminal`, kisha ifungue |
 | Kwa Right click | **Right click** kwenye folda au Desktop → **Open in Terminal** |
 
-Dirisha jeusi litafunguka. Andika komandi, kisha bonyeza **Enter**.
+Dirisha (mara nyingi jeusi) litafunguka. Andika komandi, kisha bonyeza **Enter**.
 
 ### Windows — PowerShell
 
@@ -117,10 +117,11 @@ Dirisha jeusi litafunguka. Andika komandi, kisha bonyeza **Enter**.
 | Kwa kutafuta | Bonyeza **Start**, andika `powershell`, kisha ibonyeze |
 | Kwa Right click | **Right click** kitufe cha **Start** → **Terminal** au **Windows PowerShell** |
 | Kwa Run | Bonyeza **Windows + R**, andika `powershell`, bonyeza **Enter** |
+| Kwa njia ya moja kwa moja | Bonyeza **Windows + S**, andika `powershell`, bonyeza **Enter** |
 
-⚠️ Komandi za kusakinisha leseni zinahitaji **ruhusa ya msimamizi**. Badala ya
+⚠️ Komandi za kusakinisha leseni zinahitaji **ruhusa ya admin**. Badala ya
 kuifungua kawaida, **Right click** → **Run as administrator**. Ukiiona PowerShell
-yenye maandishi `Administrator` juu, uko sahihi.
+yenye maandishi `Administrator` juu, upo sahihi.
 
 ⚠️ Unapoandika path yenye nafasi — mfano `C:\Program Files\NEXTGAMIS ABS` —
 iweke ndani ya alama za nukuu `"..."` kama zilivyoonyeshwa kwenye komandi.
@@ -133,12 +134,12 @@ Unapoifungua mara ya kwanza, programu itaonyesha **Machine ID** yako — namba n
 
 ### Tutumie taarifa hizi tano
 
-Tuma taarifa hizi kwa **[sales@tssfl.co](mailto:sales@tssfl.co)** au WhatsApp **+255 762 896 544**:
+Tuma taarifa hizi kwenda **[sales@tssfl.co](mailto:sales@tssfl.co)** au WhatsApp **+255 762 896 544**:
 
 | Taarifa | Mfano |
 | ------------------- | ---------------------------------------------------- |
 | Machine ID | Namba ndefu iliyo kwenye skrini — nakili kama ilivyo |
-| Jina la biashara | `WAKALA BORA` — litaonekana kwenye kila ripoti yako |
+| Jina la biashara | Mfano, `WAKALA BORA` — litaonekana kwenye kila ripoti yako |
 | Barua pepe | Mahali leseni na nyaraka zingine kama manual zitakapotumwa |
 | Aina ya kompyuta | `laptop`, `desktop`, au modeli, mfano `HP 250 G8` |
 | Mfumo wa Kompyuta (Operating System - OS) | `Windows 11`, `Windows 10`, `Ubuntu 22.04` |
@@ -151,11 +152,11 @@ Tuma taarifa hizi kwa **[sales@tssfl.co](mailto:sales@tssfl.co)** au WhatsApp **
 
 Njia rahisi ni kuweka faili la leseni pamoja na kisakinishi, kisha kurun kisakinishi tena.
 
-Kisakinishi hutafuta faili yoyote ya `.lic` iliyo pamoja nacho na kuisakinisha yenyewe. Huhitaji kuandika komandi yoyote.
+Kisakinishi hutafuta faili lolote la `.lic` lililo pamoja nacho na kulisakinisha yenyewe. Huhitaji kuandika komandi yoyote.
 
 ### Windows
 
-1. Nakili faili la `.lic` kwenye folda lenye `install.bat` — ile `abs_windows\` ulilolifungua kutoka kwenye ZIP.
+1. Nakili faili la `.lic` kwenye folda lenye `install.bat` — `abs_windows\` ulilolifungua kutoka kwenye ZIP.
 
 2. **Right click** `install.bat` → **Run as administrator**
 
@@ -171,7 +172,7 @@ Data, settings na ripoti zako havitaguswa — kurun kisakinishi tena kunaweka le
 
 ### Kama ulifuta folda Ulilopakua
 
-Programu ina zana ile ile ndani yake:
+Programu ina zana ile ile ndani yake, kwa hiyo tumia komandi::
 
 **Windows**
 
@@ -203,8 +204,8 @@ Kwa Linux, kama aikoni haionekani kwenye Desktop (kama hakuna Desktop folda),
 Applications**, kisha andika `NEXTGAMIS`.
 
 Ukiiona, **Right click** aikoni yake → **Add to Favorites**. Baada ya hapo
-itabaki kwenye panel ya upande wa kushoto, hivyo utaifungua kwa bonyezo moja
-kila siku.
+itabaki kwenye panel ya upande wa kushoto, hivyo utaifungua kwa kubonyeza mara moja tu
+kila mara.
 
 Kama bado haionekani, tumia komandi hii — hii hufanya kazi daima:
 
