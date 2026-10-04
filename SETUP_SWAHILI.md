@@ -15,6 +15,42 @@ Mwongozo mfupi wa kusakinisha na kutumia NEXTGAMIS ABS kwenye kompyuta yako.
 
 [SHA256SUMS.txt](https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/SHA256SUMS.txt) — kwa kuhakikisha faili lako halikukatika wakati wa kupakua.
 
+<details>
+<summary><b>Kuhakikisha faili lako halikukatika (si lazima)</b></summary>
+
+Intaneti ikikatika katikati ya upakuaji, faili linaweza kuonekana zima lakini
+likawa pungufu. Likijaribu kusakinisha, makosa yanayotokea huwa hayaeleweki.
+`SHA256SUMS.txt` lina alama ya kipekee ya kila faili — ukipata alama ile ile,
+faili lako ni zima.
+
+**Windows** — fungua PowerShell kwenye folda lenye faili ulilopakua:
+
+```powershell
+cd $HOME\Downloads
+Get-FileHash NEXTGAMIS_ABS_1.0.0_Windows_x64.zip -Algorithm SHA256 | Format-List Hash
+```
+
+Linganisha jibu na alama iliyo kwenye `SHA256SUMS.txt`. Zikifanana, faili ni zima.
+
+**Linux** — weka faili mbili kwenye folda moja, kisha:
+
+```bash
+cd ~/Downloads
+curl -LO https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/SHA256SUMS.txt
+sha256sum -c SHA256SUMS.txt --ignore-missing
+```
+
+| Jibu | Maana |
+| --- | --- |
+| `OK` | Faili ni zima — endelea kusakinisha |
+| `FAILED` | Faili lilikatika — **pakua tena** |
+
+⚠️ Ukaguzi huu unaonyesha kama faili lilikatika wakati wa kupakua. Hauonyeshi
+kama faili limebadilishwa na mtu — anayeweza kubadilisha programu anaweza pia
+kubadilisha alama zake. Thamani yake halisi ni kwenye intaneti isiyo thabiti.
+
+</details>
+
 ⚠️ Ukurasa wa Matoleo unaonyesha pia **"Source code (zip)"** na **"Source
 code (tar.gz)"** chini kabisa. GitHub huweka yenyewe kwenye kila toleo.
 Hivyo siyo programu — ni nakala ndogo ya maelekezo haya. **Usizipakue.**
