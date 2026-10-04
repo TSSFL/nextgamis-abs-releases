@@ -18,7 +18,7 @@ Mwongozo mfupi wa kusakinisha na kutumia NEXTGAMIS ABS kwenye kompyuta yako.
 <details>
 <summary><b>Kuhakikisha faili lako halikukatika (si lazima)</b></summary>
 
-Intaneti ikikatika katikati ya upakuaji, faili linaweza kuonekana zima lakini
+Intaneti ikikatika wakati wa upakuaji, faili linaweza kuonekana zima lakini
 likawa pungufu. Likijaribu kusakinisha, makosa yanayotokea huwa hayaeleweki.
 `SHA256SUMS.txt` lina alama ya kipekee ya kila faili — ukipata alama ile ile,
 faili lako ni zima.
