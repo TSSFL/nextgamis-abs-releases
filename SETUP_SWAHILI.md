@@ -233,6 +233,6 @@ Data zako, leseni na settings zako havitaguswa.
 | Mauzo na leseni | [sales@tssfl.co](mailto:sales@tssfl.co) |
 | Msaada | [support@tssfl.co](mailto:support@tssfl.co) |
 | Simu, WhatsApp, SMS | +255 762 896 544 |
-| Majadiliano na maswali | **[Jukwaa la TSSFL Technology Stack](https://tssfl.com/viewtopic.php?t=7529)** |
+| Mjadala | **[Fuatilia Mjadala TSSFL Technology Stack](https://tssfl.com/viewtopic.php?t=7529)** |
 
 **TSSFL Technology Stack Team — Mifumo ya kidijitali tangu 2012**

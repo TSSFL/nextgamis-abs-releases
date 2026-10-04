@@ -262,7 +262,7 @@ settings are kept** — the installer never touches them.
 | Sales and licences | **sales@tssfl.co** |
 | Support | **support@tssfl.co** |
 | Phone, WhatsApp, SMS | **+255 762 896 544** |
-| Questions and discussion | **[TSSFL Technology Stack forum](https://tssfl.com/viewtopic.php?t=7529)** |
+| Mjadala | **[Fuatilia Mjadala TSSFL Technology Stack](https://tssfl.com/viewtopic.php?t=7529)** |
 | | [www.tssfl.com](https://www.tssfl.com) · [www.tssfl.co](https://www.tssfl.co) |
 
 © 2026 TSSFL Technology Stack Team — mifumo ya kidijitali tangu 2012
