@@ -265,4 +265,4 @@ settings are kept** — the installer never touches them.
 | Conversation | **[Follow Conversation on TSSFL Technology Stack](https://tssfl.com/viewtopic.php?t=7529)** |
 | | [www.tssfl.com](https://www.tssfl.com) · [www.tssfl.co](https://www.tssfl.co) |
 
-© 2026 TSSFL Technology Stack Team — digital systems since 2012
+© 2026 TSSFL Technology Stack Team — Digital systems since 2012
