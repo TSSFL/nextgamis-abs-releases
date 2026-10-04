@@ -192,7 +192,7 @@ Kisakinishi hutafuta faili lolote la `.lic` lililo pamoja nacho na kulisakinisha
 
 ### Windows
 
-1. Nakili faili la `.lic` kwenye folda lenye `install.bat` — `abs_windows\` ulilolifungua kutoka kwenye ZIP.
+1. Nakili faili la `.lic` kwenye folda lenye faili `install.bat` — `abs_windows\` ulilolifungua kutoka kwenye ZIP.
 
 2. **Right click** `install.bat` → **Run as administrator**
 
