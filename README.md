@@ -183,7 +183,7 @@ Send these five things to **sales@tssfl.co**, or on WhatsApp to
 | | Example |
 |---|---|
 | **Machine ID** | the long code shown on screen — copy it exactly |
-| **Business name** | `WAKALA BORA` — this is printed on every report you generate |
+| **Business name** | For example, `WAKALA BORA` — this is printed on every report you generate |
 | **Email address** | where the licence and your reports go |
 | **Machine type** | `laptop`, `desktop`, or the model, e.g. `HP 250 G8` |
 | **Operating system** | `Windows 11`, `Windows 10`, `Ubuntu 22.04` |
