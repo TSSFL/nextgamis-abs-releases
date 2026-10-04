@@ -124,6 +124,21 @@ Kila **'package' inafunguka kuwa folda moja**, na usakinishaji hufanyika ndani y
 
 3. **Right click** `install.bat` → **Run as administrator**
 
+4. **Open File - Security Warning** — *"The publisher could not be verified"* →
+   bonyeza **Run**
+
+5. **User Account Control** — *"Do you want to allow this app to make changes to
+   your device?"* → bonyeza **Yes**
+
+⚠️ **Madirisha haya mawili ni ya kawaida**, yanatokea kwenye usakinishaji mpya
+na pia unapoboresha. La kwanza linatokea kwa sababu faili limetoka kwenye
+intaneti na hatujanunua *code-signing certificate*; la pili ni Windows kuomba
+ruhusa ya kuandika kwenye `Program Files`, jambo ambalo kila kisakinishi
+hulihitaji. Hakuna lolote baya kwenye programu.
+
+⚠️ **Kwenye User Account Control, kitufe cha `No` ndicho kilichoangaziwa.**
+Ukibonyeza Enter usakinishaji unasitishwa — bonyeza **Yes**.
+
 ⚠️ Idadi ya folda inategemea jinsi ulivyofungua ZIP, siyo **Package** yenyewe. Fuata `install.bat`, siyo majina ya folda — popote faili hilo lilipo, ndiyo folda unayohitaji.
 
 4. Windows itauliza:

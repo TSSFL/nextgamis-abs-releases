@@ -122,6 +122,19 @@ Each package unpacks into **one folder**, and everything happens inside it.
    full path is usually
    `NEXTGAMIS_ABS_1.0.0_Windows_x64\abs_windows\`
 3. Right-click **`install.bat`** → **Run as administrator**
+4. **Open File - Security Warning** — *"The publisher could not be verified"* →
+   **Run**
+5. **User Account Control** — *"Do you want to allow this app to make changes to
+   your device?"* → **Yes**
+
+⚠️ **Both of those are expected, on a fresh install and on an upgrade.** The
+first appears because the file came from the internet and we have not bought a
+code-signing certificate; the second is Windows asking permission to write to
+`Program Files`, which every installer needs. Neither says anything is wrong
+with the software.
+
+⚠️ **In the User Account Control box, `No` is the highlighted button.** Pressing
+Enter cancels the installation — click **Yes**.
 
 ⚠️ The number of folders depends on how you extracted, not on the package.
 **Go by `install.bat`, not by the folder names** — wherever that file is, that
