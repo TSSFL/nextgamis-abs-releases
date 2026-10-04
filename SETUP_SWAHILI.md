@@ -53,6 +53,25 @@ Ukaguzi huu ni muhimu hasa pale intaneti isipokuwa thabiti.
 code (tar.gz)"** chini kabisa. GitHub huweka yenyewe kwenye kila toleo.
 Hivyo siyo programu — ni nakala ndogo ya maelekezo haya. **Usizipakue.**
 
+### Au — kupakua kwa komandi
+
+Komandi hizi zinaendelea pale zilipoishia intaneti ikikatika, hivyo zinafaa
+kwenye mtandao usio thabiti.
+
+**Linux** — fungua Terminal, kisha:
+
+```bash
+cd ~/Downloads
+curl -LO https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Linux_x64.tar.gz
+```
+
+**Windows** — fungua PowerShell, kisha:
+
+```powershell
+cd $HOME\Downloads
+curl.exe -LO https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Windows_x64.zip
+```
+
 ### Mifumo ya Kompyuta (OS) Yenye Sifa ya Kusanikisha
 
 **Windows** — Windows 10 na Windows 11, 64-bit pekee.
