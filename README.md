@@ -157,7 +157,7 @@ if a Desktop folder exists — **search the applications list**: press
 **Activities** or **Show Applications** and type `NEXTGAMIS`.
 
 When you find it, **right-click → Add to Favorites**. It then stays in the
-left-hand panel, so it opens in one click every day.
+left-hand panel, so it opens in one click every launch.
 
 If it still does not appear, use this command — it always works:
 
@@ -262,7 +262,7 @@ settings are kept** — the installer never touches them.
 | Sales and licences | **sales@tssfl.co** |
 | Support | **support@tssfl.co** |
 | Phone, WhatsApp, SMS | **+255 762 896 544** |
-| Mjadala | **[Fuatilia Mjadala TSSFL Technology Stack](https://tssfl.com/viewtopic.php?t=7529)** |
+| Conversation | **[Follow Conversation on TSSFL Technology Stack](https://tssfl.com/viewtopic.php?t=7529)** |
 | | [www.tssfl.com](https://www.tssfl.com) · [www.tssfl.co](https://www.tssfl.co) |
 
-© 2026 TSSFL Technology Stack Team — mifumo ya kidijitali tangu 2012
+© 2026 TSSFL Technology Stack Team — digital systems since 2012
