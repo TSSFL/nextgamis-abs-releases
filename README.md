@@ -125,6 +125,25 @@ to install it**, and none are needed to run it.
 
 ---
 
+---
+
+## 🤝 Rather not download it yourself?
+
+**If you are in Dar es Salaam we can install it for you, or you can collect it
+from us on a flash drive — no download, no data bundle.**
+
+We can also walk you through the installation over the phone, wherever you are.
+
+| | |
+|---|---|
+| **Call, SMS or WhatsApp** | **+255 762 896 544** |
+| **Email** | [sales@tssfl.co](mailto:sales@tssfl.co) |
+
+Bring the computer you want it on, or tell us where it is. We will set it up,
+install your licence and show you how to make your first entry.
+
+---
+
 ## Install
 
 Each package unpacks into **one folder**, and everything happens inside it.
