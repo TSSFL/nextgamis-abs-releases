@@ -170,10 +170,9 @@ Kila **'package' inafunguka kuwa folda moja**, na usakinishaji hufanyika ndani y
    your device?"* → bonyeza **Yes**
 
 ⚠️ **Alerts hizi ni za kawaida**, zitaonekana kwenye usakinishaji mpya
-na pia unapoboresha. La kwanza linatokea kwa sababu faili limetoka kwenye
-intaneti na halina *code-signing certificate*; la pili ni Windows kuomba
-ruhusa ya kuandika kwenye `Program Files`, jambo ambalo kila kisakinishi
-hulihitaji. Hakuna lolote baya kwenye programu.
+na pia unapoupdate. Alert ya kwanza inatokea kwa sababu faili limetoka kwenye
+intaneti na halina *code-signing certificate*; ya pili, Windows inaomba ruhusa
+ya kuandika kwenye `Program Files`, jambo ambalo kila kisakinishi hulihitaji.
 
 ⚠️ **Kwenye User Account Control, kitufe cha `No` ndicho kilichoangaziwa.**
 Ukibonyeza Enter usakinishaji unasitishwa — bonyeza **Yes**.
