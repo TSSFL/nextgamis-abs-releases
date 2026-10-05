@@ -178,7 +178,7 @@ hulihitaji. Hakuna lolote baya kwenye programu.
 ⚠️ **Kwenye User Account Control, kitufe cha `No` ndicho kilichoangaziwa.**
 Ukibonyeza Enter usakinishaji unasitishwa — bonyeza **Yes**.
 
-⚠️ Idadi ya folda inategemea jinsi ulivyofungua ZIP, siyo **Package** yenyewe. Fuata `install.bat`, siyo majina ya folda — popote faili hilo lilipo, ndiyo folda unayohitaji.
+⚠️ Idadi ya folda inategemea jinsi ulivyofungua ZIP, siyo **Package** yenyewe. Tafuta `install.bat`, siyo majina ya folda — popote faili hilo lilipo, ndiyo folda unayohitaji.
 
 4. Windows itauliza:
 
