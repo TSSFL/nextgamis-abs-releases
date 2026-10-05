@@ -61,9 +61,8 @@ Start-Process -Verb RunAs .\abs_release\abs_windows\install.bat
 
 `-Verb RunAs` is *Run as administrator*. Answer **Yes** at User Account Control.
 
-⚠️ A download made this way is **not** tagged as internet-sourced, so the
-*Open File - Security Warning* described above does not appear. Convenient, but
-it is not what a customer downloading in a browser sees.
+⚠️ It is normal for a computer to show a security warning for a file downloaded
+from the internet. It is not a sign that anything is wrong with the software.
 
 With the GitHub CLI, which resumes and verifies for you:
 

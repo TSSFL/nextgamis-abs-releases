@@ -88,8 +88,8 @@ Start-Process -Verb RunAs .\abs_release\abs_windows\install.bat
 `-Verb RunAs` ni *Run as administrator*. Bonyeza **Yes** kwenye User Account
 Control.
 
-⚠️ Faili lililopakuliwa kwa njia hii **halitambuliwi** kama limetoka intaneti,
-hivyo dirisha la *Open File - Security Warning* halitatokea.
+⚠️ Ni kawaida kwa kompyuta kuonyesha onyo la usalama kwa faili lililopakuliwa
+kutoka intaneti. Hilo si dalili ya tatizo kwenye programu.
 
 ### Mifumo ya Kompyuta (OS) Yenye Sifa ya Kusanikisha
 
