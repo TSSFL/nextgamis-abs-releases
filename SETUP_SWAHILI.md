@@ -70,7 +70,26 @@ curl -LO https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/downloa
 ```powershell
 cd $HOME\Downloads
 curl.exe -LO https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Windows_x64.zip
+curl.exe -LO https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/SHA256SUMS.txt
+
+$file = "NEXTGAMIS_ABS_1.0.0_Windows_x64.zip"
+$want = ((Select-String -Path SHA256SUMS.txt -Pattern ([regex]::Escape($file))).Line -split '\s+')[0]
+$got  = (Get-FileHash $file -Algorithm SHA256).Hash
+if ($got -eq $want.ToUpper()) { "$file : OK" } else { "$file : FAILED - pakua tena" }
 ```
+
+Jibu `OK` lina maana faili ni zima. Kisha:
+
+```powershell
+Expand-Archive NEXTGAMIS_ABS_1.0.0_Windows_x64.zip -DestinationPath abs_release
+Start-Process -Verb RunAs .\abs_release\abs_windows\install.bat
+```
+
+`-Verb RunAs` ni *Run as administrator*. Bonyeza **Yes** kwenye User Account
+Control.
+
+⚠️ Faili lililopakuliwa kwa njia hii **halitambuliwi** kama limetoka intaneti,
+hivyo dirisha la *Open File - Security Warning* halitatokea.
 
 ### Mifumo ya Kompyuta (OS) Yenye Sifa ya Kusanikisha
 

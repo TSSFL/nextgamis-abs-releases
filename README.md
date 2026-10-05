@@ -42,8 +42,28 @@ sha256sum -c SHA256SUMS.txt --ignore-missing
 
 ```powershell
 # Windows PowerShell
+cd $HOME\Downloads
 curl.exe -LO https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/NEXTGAMIS_ABS_1.0.0_Windows_x64.zip
+curl.exe -LO https://github.com/TSSFL/nextgamis-abs-releases/releases/latest/download/SHA256SUMS.txt
+
+$file = "NEXTGAMIS_ABS_1.0.0_Windows_x64.zip"
+$want = ((Select-String -Path SHA256SUMS.txt -Pattern ([regex]::Escape($file))).Line -split '\s+')[0]
+$got  = (Get-FileHash $file -Algorithm SHA256).Hash
+if ($got -eq $want.ToUpper()) { "$file : OK" } else { "$file : FAILED - download again" }
 ```
+
+Then extract and install:
+
+```powershell
+Expand-Archive NEXTGAMIS_ABS_1.0.0_Windows_x64.zip -DestinationPath abs_release
+Start-Process -Verb RunAs .\abs_release\abs_windows\install.bat
+```
+
+`-Verb RunAs` is *Run as administrator*. Answer **Yes** at User Account Control.
+
+⚠️ A download made this way is **not** tagged as internet-sourced, so the
+*Open File - Security Warning* described above does not appear. Convenient, but
+it is not what a customer downloading in a browser sees.
 
 With the GitHub CLI, which resumes and verifies for you:
 
