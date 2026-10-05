@@ -167,7 +167,7 @@ Each package unpacks into **one folder**, and everything happens inside it.
    your device?"* → **Yes**
 
 ⚠️ **Both of those are expected, on a fresh install and on an upgrade.** The
-first appears because the file came from the internet and we have not bought a
+first appears because the file came from the internet and does not carry a
 code-signing certificate; the second is Windows asking permission to write to
 `Program Files`, which every installer needs. Neither says anything is wrong
 with the software.

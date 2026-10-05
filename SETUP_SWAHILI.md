@@ -169,9 +169,9 @@ Kila **'package' inafunguka kuwa folda moja**, na usakinishaji hufanyika ndani y
 5. **User Account Control** — *"Do you want to allow this app to make changes to
    your device?"* → bonyeza **Yes**
 
-⚠️ **Madirisha haya mawili ni ya kawaida**, yanatokea kwenye usakinishaji mpya
+⚠️ **Alerts hizi ni za kawaida**, zitaonekana kwenye usakinishaji mpya
 na pia unapoboresha. La kwanza linatokea kwa sababu faili limetoka kwenye
-intaneti na hatujanunua *code-signing certificate*; la pili ni Windows kuomba
+intaneti na halina *code-signing certificate*; la pili ni Windows kuomba
 ruhusa ya kuandika kwenye `Program Files`, jambo ambalo kila kisakinishi
 hulihitaji. Hakuna lolote baya kwenye programu.
 
