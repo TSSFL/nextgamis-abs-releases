@@ -129,7 +129,8 @@ Kila kitu kinachohitajika kinakuja pamoja na programu. Hakuna intaneti wala vifu
 **Kama upo Dar es Salaam tunaweza kukusakinishia, au unaweza kuchukua kwetu
 kwenye flash — bila kupakua, bila bando.**
 
-Pia tunaweza kukuelekeza hatua kwa hatua kwa simu, popote ulipo.
+Pia tunaweza kukuelekeza hatua kwa hatua kwa simu, Google Meet au Zoom,
+popote ulipo.
 
 | | |
 |---|---|

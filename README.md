@@ -132,7 +132,8 @@ to install it**, and none are needed to run it.
 **If you are in Dar es Salaam we can install it for you, or you can collect it
 from us on a flash drive — no download, no data bundle.**
 
-We can also walk you through the installation over the phone, wherever you are.
+We can also walk you through the installation by **phone, Google Meet or
+Zoom** — wherever you are.
 
 | | |
 |---|---|
