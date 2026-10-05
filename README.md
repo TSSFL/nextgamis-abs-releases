@@ -140,8 +140,8 @@ Zoom** — wherever you are.
 | **Call, SMS or WhatsApp** | **+255 762 896 544** |
 | **Email** | [sales@tssfl.co](mailto:sales@tssfl.co) |
 
-Bring the computer you want it on, or tell us where it is. We will set it up,
-install your licence and show you how to make your first entry.
+Come with the computer you want it installed on, or tell us where you are. We
+will set it up, install your licence and show you how to make your first entry.
 
 ---
 

@@ -137,8 +137,8 @@ popote ulipo.
 | **Piga simu, SMS au WhatsApp** | **+255 762 896 544** |
 | **Barua pepe** | [sales@tssfl.co](mailto:sales@tssfl.co) |
 
-Lete kompyuta unayotaka kuiweka, au tuambie ilipo. Tutakusakinishia, tutaweka
-leseni yako, na tutakuonyesha jinsi ya kuingiza taarifa zako za kwanza.
+Njoo na kompyuta unayotaka tuinstall, au tuambie ulipo. Tutakusakinishia,
+tutaweka leseni yako, na tutakuonyesha jinsi ya kuingiza taarifa zako za kwanza.
 
 ---
 
