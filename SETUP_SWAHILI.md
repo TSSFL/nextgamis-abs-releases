@@ -333,6 +333,20 @@ Data zako, leseni na settings zako havitaguswa.
 
 ---
 
+### Kufunga kompyuta inapoachwa
+
+Programu hukutoa kiotomatiki baada ya muda bila kazi — **kwenye Linux na
+macOS**. Kwenye Windows, tumia Windows yenyewe, ambayo hufunga kompyuta nzima
+badala ya programu moja:
+
+**Settings → Accounts → Sign-in options → If you've been away, when should
+Windows require you to sign in again?**
+
+Au weka screen saver ukiwasha **On resume, display logon screen**.
+
+⚠️ Hili ni muhimu popote kompyuta ilipo dukani. Skrini ina majina ya wateja,
+takwimu za float na kamisheni — anayepita yeyote anaweza kuzisoma.
+
 ## 6. Kuondoa programu
 
 | | |

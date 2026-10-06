@@ -307,6 +307,21 @@ settings are kept** — the installer never touches them.
 
 ---
 
+### Locking the computer when it is left unattended
+
+The application signs you out after a period of no activity — **on Linux and
+macOS**. On Windows, use Windows itself, which locks the whole computer rather
+than one program:
+
+**Settings → Accounts → Sign-in options → If you've been away, when should
+Windows require you to sign in again?**
+
+Or set a screen saver with **On resume, display logon screen** ticked.
+
+⚠️ This is worth doing wherever the computer sits in a shop. The screen holds
+customer names, float figures and commissions, and anyone walking past can read
+them.
+
 ## Uninstalling
 
 | | |
