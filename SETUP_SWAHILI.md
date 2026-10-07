@@ -335,9 +335,9 @@ Data zako, leseni na settings zako havitaguswa.
 
 ### Kufunga kompyuta inapoachwa
 
-Programu hukutoa kiotomatiki baada ya muda bila kazi — **kwenye Linux na
-macOS**. Kwenye Windows, tumia Windows yenyewe, ambayo hufunga kompyuta nzima
-badala ya programu moja:
+Ukifungua mfumo na kuuacha kwa muda fulani bila kuutumia, programu hukutoa
+automatically — **kwenye Linux na macOS**. Kwenye Windows, tumia Windows
+yenyewe, ambayo hufunga kompyuta nzima badala ya programu moja:
 
 **Settings → Accounts → Sign-in options → If you've been away, when should
 Windows require you to sign in again?**
