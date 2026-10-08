@@ -136,7 +136,7 @@ Zoom** — wherever you are.
 
 | | |
 |---|---|
-| **[Call](tel:+255762896544), [SMS](sms:+255762896544) or [WhatsApp](https://wa.me/255762896544)** | **[+255 762 896 544](tel:+255762896544)** |
+| **[Call](tel:+255762896544), [SMS](tel:+255762896544) or [WhatsApp](https://wa.me/255762896544)** | **[+255 762 896 544](tel:+255762896544)** |
 | **Email** | [sales@tssfl.co](mailto:sales@tssfl.co) |
 
 Come with the computer you want it installed on, or tell us where you are. We
@@ -342,7 +342,7 @@ backup is not touched. If you need the data, take one first
 |---|---|
 | Sales and licences | **sales@tssfl.co** |
 | Support | **support@tssfl.co** |
-| [Phone](tel:+255762896544), [WhatsApp](https://wa.me/255762896544), [SMS](sms:+255762896544) | **[+255 762 896 544](tel:+255762896544)** |
+| [Phone](tel:+255762896544), [WhatsApp](https://wa.me/255762896544), [SMS](tel:+255762896544) | **[+255 762 896 544](tel:+255762896544)** |
 | Conversation | **[Follow Conversation on TSSFL Technology Stack](https://tssfl.com/viewtopic.php?t=7529)** |
 | | [www.tssfl.com](https://www.tssfl.com) · [www.tssfl.co](https://www.tssfl.co) |
 

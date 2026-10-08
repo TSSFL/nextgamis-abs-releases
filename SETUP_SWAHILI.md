@@ -134,7 +134,7 @@ popote ulipo.
 
 | | |
 |---|---|
-| **[Piga simu](tel:+255762896544), [SMS](sms:+255762896544) au [WhatsApp](https://wa.me/255762896544)** | **[+255 762 896 544](tel:+255762896544)** |
+| **[Piga simu](tel:+255762896544), [SMS](tel:+255762896544) au [WhatsApp](https://wa.me/255762896544)** | **[+255 762 896 544](tel:+255762896544)** |
 | **Barua pepe** | [sales@tssfl.co](mailto:sales@tssfl.co) |
 
 Njoo na kompyuta unayotaka tuinstall, au tuambie ulipo. Tutakusakinishia,
@@ -367,7 +367,7 @@ backup ya Desktop kwanza (**System Utilities → 3**).
 | ------------------- | ------------------------------------------- |
 | Mauzo na leseni | [sales@tssfl.co](mailto:sales@tssfl.co) |
 | Msaada | [support@tssfl.co](mailto:support@tssfl.co) |
-| [Simu](tel:+255762896544), [WhatsApp](https://wa.me/255762896544), [SMS](sms:+255762896544) | [+255 762 896 544](tel:+255762896544) |
+| [Simu](tel:+255762896544), [WhatsApp](https://wa.me/255762896544), [SMS](tel:+255762896544) | [+255 762 896 544](tel:+255762896544) |
 | Mjadala | **[Fuatilia Mjadala TSSFL Technology Stack](https://tssfl.com/viewtopic.php?t=7529)** |
 
 **TSSFL Technology Stack Team — Mifumo ya kidijitali tangu 2012**
