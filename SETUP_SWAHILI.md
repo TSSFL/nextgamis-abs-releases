@@ -283,6 +283,42 @@ Manage exclusions             Exclusions: 2.
 Specify trusted applications  Trusted applications: 1.
 ```
 
+#### Windows Defender (Windows Security)
+
+Ipo kwenye kila kompyuta ya Windows, hata kama umeweka antivirus nyingine.
+
+1. **Start** → andika **Windows Security** → Enter
+2. **Virus & threat protection**
+3. Teremka kwenda chini, halafu Chini ya *Virus & threat protection settings*, bonyeza **Manage settings**
+4. Teremka mpaka kwenye *Exclusions*, bonyeza **Add or remove exclusions**
+5. **User Account Control** itauliza *"Do you want to allow this app to make
+   changes to your device?"* → bonyeza **Yes**
+
+   ⚠️ **Kitufe cha `No` ndicho kilichoangaziwa.** Ukibonyeza Enter inasitishwa
+   — bonyeza **Yes**.
+
+6. Bonyeza **+ Add an exclusion** → **Folder**
+
+   Dirisha la kutafuta (browse) litafunguka. **Folda yetu imefichwa, kwa hiyo
+   haipo kwenye orodha** — **andika au bandika** path kwenye kisanduku badala
+   ya kuitafuta.
+
+7. Rudia kwa folda ya pili
+8. Bonyeza **+ Add an exclusion** → **File**, kisha ongeza programu yenyewe kwa
+   njia hiyo hiyo:
+
+   ```text
+   C:\Program Files\NEXTGAMIS ABS\run_app.exe
+   ```
+
+**Hakikisha imefanya kazi.** Orodha ya *Exclusions* itaonyesha vitu vitatu:
+
+```text
+C:\Program Files\NEXTGAMIS ABS\run_app.exe   File
+C:\Program Files\NEXTGAMIS ABS               Folder
+C:\ProgramData\NEXTGAMIS ABS                 Folder
+```
+
 **Unatumia antivirus nyingine?** Wasiliana nasi kwa namba zilizo mwishoni mwa
 ukurasa huu na tutakuelekeza.
 

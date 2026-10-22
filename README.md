@@ -276,6 +276,41 @@ Manage exclusions            Exclusions: 2.
 Specify trusted applications Trusted applications: 1.
 ```
 
+#### Windows Defender (Windows Security)
+
+Present on every Windows machine, even when another antivirus is installed.
+
+1. **Start** → type **Windows Security** → Enter
+2. **Virus & threat protection**
+3. Under *Virus & threat protection settings*, click **Manage settings**
+4. Scroll down to *Exclusions* and click **Add or remove exclusions**
+5. **User Account Control** asks *"Do you want to allow this app to make
+   changes to your device?"* → click **Yes**
+
+   ⚠️ **`No` is the highlighted button.** Pressing Enter cancels — click
+   **Yes**.
+
+6. Click **+ Add an exclusion** → **Folder**
+
+   A browse window opens. **Our folder is hidden, so it is not in the list** —
+   **type or paste** the path into the box instead of looking for it.
+
+7. Repeat for the second folder
+8. Click **+ Add an exclusion** → **File**, and add the program itself the same
+   way:
+
+   ```text
+   C:\Program Files\NEXTGAMIS ABS\run_app.exe
+   ```
+
+**Check it worked.** The *Exclusions* list reads back three entries:
+
+```text
+C:\Program Files\NEXTGAMIS ABS\run_app.exe   File
+C:\Program Files\NEXTGAMIS ABS               Folder
+C:\ProgramData\NEXTGAMIS ABS                 Folder
+```
+
 **Using a different antivirus?** Contact us on the numbers at the end of this
 page and we will take you through it.
 
