@@ -179,6 +179,39 @@ Enter cancels the installation — click **Yes**.
 **Go by `install.bat`, not by the folder names** — wherever that file is, that
 is the folder you want.
 
+### Antivirus: add NEXTGAMIS ABS to the exclusion list
+
+Some antivirus products treat a newly installed program they have not seen
+before as unknown, and may block or delete files inside it. The software is not
+damaged and nothing is wrong with it — the program simply does not carry a
+code-signing certificate yet.
+
+**Add these two folders to your antivirus exclusion, exception or trusted
+list:**
+
+```text
+C:\Program Files\NEXTGAMIS ABS
+C:\ProgramData\NEXTGAMIS ABS
+```
+
+Those are the complete paths — **copy and paste them**. Do not use the
+antivirus's *Browse* button: the installation folder is hidden on purpose, so it
+will not appear in a folder list even though the path works.
+
+Every product keeps this list in a different place, usually under
+*Settings → Exceptions*, *Exclusions*, or *Trusted applications*. If you cannot
+find it, search the web for your product's name plus
+*"add folder exclusion"* — or contact us and we will walk you through it.
+
+⚠️ **If the program has already been blocked**, pause the antivirus, run
+`install.bat` again as administrator, add the two folders above, and then turn
+protection back on. Adding the folders first does not always help, because they
+do not exist until the program is installed.
+
+⚠️ **The installation can look slow** while antivirus is running — the package
+is nearly a thousand files and each one is scanned as it is copied. Let it
+finish.
+
 **Linux**
 
 ```bash

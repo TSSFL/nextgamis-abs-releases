@@ -179,6 +179,39 @@ Ukibonyeza Enter usakinishaji unasitishwa — bonyeza **Yes**.
 
 ⚠️ Idadi ya folda inategemea jinsi ulivyofungua ZIP, siyo **Package** yenyewe. Tafuta `install.bat`, siyo majina ya folda — popote faili hilo lilipo, ndiyo folda unayohitaji.
 
+### Antivirus: ongeza NEXTGAMIS ABS kwenye orodha ya programu zinazoaminika
+
+Programu nyingi za antivirus huichukulia programu mpya ambayo hazijaizoea kama
+programu isiyojulikana, na zinaweza kuzuia au kufuta faili zilizo ndani yake.
+Mfumo haujaharibika na hakuna tatizo lolote — programu bado haina
+*code-signing certificate*.
+
+**Ongeza folda hizi mbili kwenye orodha ya *exclusion*, *exception* au
+*trusted* ya antivirus yako:**
+
+```text
+C:\Program Files\NEXTGAMIS ABS
+C:\ProgramData\NEXTGAMIS ABS
+```
+
+Hizo ndizo njia sahihi — **nakili na ubandike (copy na paste)**. Usiandike kwa mkono kwa sababu unaweza kukosea "path". Pia usitumie kitufe
+cha *Browse* cha antivirus: folda ya usakinishaji imefichwa kwa makusudi, kwa
+hiyo haitaonekana kwenye orodha ya folda hata kama njia yenyewe inafanya kazi.
+
+Kila antivirus huweka orodha ya programu inazoziamini mahali pake, mara nyingi chini ya
+*Settings → Exceptions*, *Exclusions* au *Trusted applications*. Kama hujapata,
+tafuta kwenye intaneti jina la antivirus yako pamoja na maneno
+*"add folder exclusion"* — au tuwasiliane nasi na tutakuelekeza.
+
+⚠️ **Kama programu imekwisha kuzuiwa**, sitisha antivirus kwa muda, halafu "run"
+`install.bat` tena kama administrator, ongeza folda hizo mbili kwenye orodha ya programu zinazoaminika kama ilivyoelezwa hapo juu, kisha washa
+antivirus yako. Kuweka folda paths kabla ya kusakinisha NEXTGAMIS ABS, inaweza isisaidie kwa sababu folda hizo
+bado hazipo, mpaka programu iwe imesakinishwa.
+
+⚠️ **Usakinishaji unaweza kuonekana kama umesimama** wakati antivirus
+inafanya kazi — package ina karibu faili elfu moja na kila moja inachunguzwa
+inapokopiwa. Hali hii yaweza kuchukua muda kiasi, kwa hiyo kuwa na subira wakati usakinishaji ukiendelea.
+
 4. Windows itauliza:
 
    **"Do you want to allow this app to make changes to your device?"**
