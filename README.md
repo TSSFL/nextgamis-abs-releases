@@ -194,14 +194,7 @@ C:\Program Files\NEXTGAMIS ABS
 C:\ProgramData\NEXTGAMIS ABS
 ```
 
-Those are the complete paths — **copy and paste them**. Do not use the
-antivirus's *Browse* button: the installation folder is hidden on purpose, so it
-will not appear in a folder list even though the path works.
-
-Every product keeps this list in a different place, usually under
-*Settings → Exceptions*, *Exclusions*, or *Trusted applications*. If you cannot
-find it, search the web for your product's name plus
-*"add folder exclusion"* — or contact us and we will walk you through it.
+Those are the complete paths — **copy and paste them.**
 
 ⚠️ **If the program has already been blocked**, pause the antivirus, run
 `install.bat` again as administrator, add the two folders above, and then turn
@@ -211,6 +204,80 @@ do not exist until the program is installed.
 ⚠️ **The installation can look slow** while antivirus is running — the package
 is nearly a thousand files and each one is scanned as it is copied. Let it
 finish.
+
+#### Avast
+
+1. Open **Avast**
+2. **☰ Menu** (top right) → **Settings**
+3. In the left panel, under **GENERAL**, click **Exceptions**
+4. Click **Add exception**
+5. **Paste** the first path into the box, then click **Add exception**
+6. Repeat for the second path
+
+⚠️ Do not use the **Browse** button. The installation folder is hidden, so it
+will not appear in the folder list — paste the path instead.
+
+When both are added, the list reads:
+
+```text
+C:\Program Files\NEXTGAMIS ABS\*
+C:\ProgramData\NEXTGAMIS ABS\*
+```
+
+Avast adds the `\*` itself. It means the folder and everything inside it.
+
+#### Kaspersky
+
+Kaspersky keeps two separate lists. Do both — the first stops files being
+scanned, the second stops the program being blocked.
+
+⚠️ **Nothing is saved until you reach `Save` → `Yes` at the end.** Closing the
+window before that loses everything you entered.
+
+**1. Trust the program**
+
+1. **Settings** (gear icon, bottom left) → **Threats and Exclusions**
+2. Click **Specify trusted applications** → **+ Add**
+3. Paste this into the path box at the bottom, then click **Select**:
+
+   ```text
+   C:\Program Files\NEXTGAMIS ABS\run_app.exe
+   ```
+
+   ⚠️ Do not pick **NEXTGAMIS ABS** from the list — that is the desktop
+   shortcut (`NEXTGAMIS ABS.lnk`), not the program. Paste the path above.
+
+4. Tick **Do not scan files before opening**
+5. Tick **Do not monitor application activity**
+6. Leave **Status** as **Active**
+7. **OK** → **OK** → **Save** → **Yes**
+
+Leave the other boxes unticked. They are not needed, and each one gives away
+protection you would rather keep.
+
+**2. Exclude the two folders from scanning**
+
+1. **Settings** → **Threats and Exclusions** → **Manage exclusions** → **+ Add**
+2. In **File or folder**, paste the first path
+3. Leave **Object** and **File hash code** empty
+4. Under **Protection components**, choose **All components**
+5. Leave **Status** as **Active**
+6. **OK** → **OK** → **Save** → **Yes**
+7. Repeat for the second path
+
+⚠️ Leave **File hash code** empty. If a hash is filled in, the exclusion does
+not apply to the folder.
+
+**Check it worked.** On the *Threats and Exclusions* page, the two lines read
+back what you added:
+
+```text
+Manage exclusions            Exclusions: 2.
+Specify trusted applications Trusted applications: 1.
+```
+
+**Using a different antivirus?** Contact us on the numbers at the end of this
+page and we will take you through it.
 
 **Linux**
 

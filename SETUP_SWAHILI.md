@@ -194,31 +194,97 @@ C:\Program Files\NEXTGAMIS ABS
 C:\ProgramData\NEXTGAMIS ABS
 ```
 
-Hizo ndizo njia sahihi — **nakili na ubandike (copy na paste)**. Usiandike kwa mkono kwa sababu unaweza kukosea "path". Pia usitumie kitufe
-cha *Browse* cha antivirus: folda ya usakinishaji imefichwa kwa makusudi, kwa
-hiyo haitaonekana kwenye orodha ya folda hata kama njia yenyewe inafanya kazi.
-
-Kila antivirus huweka orodha ya programu inazoziamini mahali pake, mara nyingi chini ya
-*Settings → Exceptions*, *Exclusions* au *Trusted applications*. Kama hujapata,
-tafuta kwenye intaneti jina la antivirus yako pamoja na maneno
-*"add folder exclusion"* — au tuwasiliane nasi na tutakuelekeza.
+Hizo ndizo njia sahihi — **nakili na ubandike (copy na paste)**. Usiandike kwa
+mkono kwa sababu unaweza kukosea "path".
 
 ⚠️ **Kama programu imekwisha kuzuiwa**, sitisha antivirus kwa muda, halafu "run"
-`install.bat` tena kama administrator, ongeza folda hizo mbili kwenye orodha ya programu zinazoaminika kama ilivyoelezwa hapo juu, kisha washa
-antivirus yako. Kuweka folda paths kabla ya kusakinisha NEXTGAMIS ABS, inaweza isisaidie kwa sababu folda hizo
-bado hazipo, mpaka programu iwe imesakinishwa.
+`install.bat` tena kama administrator, ongeza folda hizo mbili kwenye orodha ya
+programu zinazoaminika kama ilivyoelezwa hapo juu, kisha washa antivirus yako.
+Kuweka folda paths kabla ya kusakinisha NEXTGAMIS ABS, inaweza isisaidie kwa
+sababu folda hizo bado hazipo, mpaka programu iwe imesakinishwa.
 
-⚠️ **Usakinishaji unaweza kuonekana kama umesimama** wakati antivirus
-inafanya kazi — package ina karibu faili elfu moja na kila moja inachunguzwa
-inapokopiwa. Hali hii yaweza kuchukua muda kiasi, kwa hiyo kuwa na subira wakati usakinishaji ukiendelea.
+⚠️ **Usakinishaji unaweza kuonekana kama umesimama** wakati antivirus inafanya
+kazi — package ina karibu faili elfu moja na kila moja inachunguzwa inapokopiwa.
+Hali hii yaweza kuchukua muda kiasi, kwa hiyo kuwa na subira wakati usakinishaji
+ukiendelea.
 
-4. Windows itauliza:
+#### Avast
 
-   **"Do you want to allow this app to make changes to your device?"**
+1. Fungua **Avast**
+2. **☰ Menu** (kona ya juu kulia) → **Settings**
+3. Upande wa kushoto, chini ya **GENERAL**, bonyeza **Exceptions**
+4. Bonyeza **Add exception**
+5. **Bandika (paste)** path ya kwanza kwenye kisanduku, kisha bonyeza
+   **Add exception**
+6. Rudia kwa path ya pili
 
-   Bonyeza **Yes**.
+⚠️ Usitumie kitufe cha **Browse**. Folda ya usakinishaji imefichwa, kwa hiyo
+haitaonekana kwenye orodha ya folda — bandika path (copy na kupaste) badala yake.
 
-⚠️ Swali hilo ni la kawaida. Windows huuliza hivyo kwa kila programu inayosakinishwa kwenye `Program Files`. Siyo onyo kuhusu usalama.
+Zikishaongezwa zote mbili, orodha itaonyesha hivi:
+
+```text
+C:\Program Files\NEXTGAMIS ABS\*
+C:\ProgramData\NEXTGAMIS ABS\*
+```
+
+Avast yenyewe huongeza `\*`. Maana yake ni folda pamoja na kila kilichomo ndani yake.
+
+#### Kaspersky
+
+Kaspersky ina orodha mbili tofauti. Fanya zote mbili — ya kwanza huzuia faili
+zisichunguzwe, ya pili huzuia programu isizuiwe.
+
+⚠️ **Hakuna kinachohifadhiwa mpaka ufike `Save` → `Yes` mwishoni.** Ukifunga
+dirisha kabla ya hapo, kila ulichoweka kinapotea.
+
+**1. Ongeza programu yenyewe kwenye orodha ya zinazoaminika**
+
+Hii ndiyo hatua muhimu kama Kaspersky imeizuia programu, siyo kuichunguza tu.
+
+1. **Settings** (alama ya gia, kona ya chini kushoto) → **Threats and Exclusions**
+2. Bonyeza **Specify trusted applications** → **+ Add**
+3. Bandika hii kwenye kisanduku cha path kilicho chini, kisha bonyeza **Select**:
+
+   ```text
+   C:\Program Files\NEXTGAMIS ABS\run_app.exe
+   ```
+
+   ⚠️ Ukichagua **NEXTGAMIS ABS** kwenye orodha badala yake, Kaspersky
+   hutumia shortcut ya desktop (`NEXTGAMIS ABS.lnk`), ambayo siyo programu
+   yenyewe. Bandika path iliyo hapo juu.
+
+4. Weka tiki kwenye **Do not scan files before opening**
+5. Weka tiki kwenye **Do not monitor application activity**
+6. Acha **Status** ikiwa **Active**
+7. **OK** → **OK** → **Save** → **Yes**
+
+Acha visanduku vingine bila tiki — havihitajiki, na kila kimoja hupunguza
+ulinzi ambao ni vema uendelee kuwepo.
+
+**2. Ondoa folda hizo mbili kwenye uchunguzi (scanning)**
+
+1. **Settings** → **Threats and Exclusions** → **Manage exclusions** → **+ Add**
+2. Kwenye **File or folder**, bandika path ya kwanza
+3. Acha **Object** na **File hash code** vikiwa vitupu
+4. Chini ya **Protection components**, chagua **All components**
+5. Acha **Status** ikiwa **Active**
+6. **OK** → **OK** → **Save** → **Yes**
+7. Rudia kwa path ya pili
+
+⚠️ Acha chaguo la **File hash code** likiwa tupu. Ukiweka hash, exclusion
+haitatumika kwenye folda.
+
+**Hakikisha imefanya kazi.** Kwenye ukurasa wa *Threats and Exclusions*,
+mistari miwili itaonyesha ulichoongeza:
+
+```text
+Manage exclusions             Exclusions: 2.
+Specify trusted applications  Trusted applications: 1.
+```
+
+**Unatumia antivirus nyingine?** Wasiliana nasi kwa namba zilizo mwishoni mwa
+ukurasa huu na tutakuelekeza.
 
 ### Linux
 
